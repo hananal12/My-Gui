@@ -178,3 +178,7 @@ DaHood:Button("Silent Lock Blue Dot", function()
             return old(...)
         end)
 end)
+
+DaHood:Button("Zapped Hub", function()
+    loadstring(game:HttpGet('https://ekso.gq/raw/relases/nixware.lua%27'))()
+end)
