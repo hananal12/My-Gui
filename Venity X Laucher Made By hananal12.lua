@@ -286,3 +286,10 @@ local function FXEMUD_fake_script() -- GuiLauncher.LocalScript
 	image:TweenPosition(UDim2.new(0.399, 0,0.157, 0),"Out", "Quad", 3) -- tweens the TextLabel{0.379, 0},{0.157, 0}
 end
 coroutine.wrap(FXEMUD_fake_script)()
+
+--Funcitons
+LaunchBtton.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(""))()
+	wait(0)
+	VenityX_Launcher:Destroy()
+end)
